@@ -1,0 +1,217 @@
+* {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  
+  body {
+    background-image: -webkit-linear-gradient(rgb(30, 20, 36), black);
+      min-width: 800px;
+  }
+  
+  .name {
+    font-size: 200%;
+    font-family: monospace;
+    text-align: left;
+    color: rgb(0, 215, 0);
+  }
+
+  .name2 {
+    font-size: 8pt;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 0px 0px 10px magenta;
+    color: magenta;
+  }
+
+  .name3 {
+    font-size: 5pt;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0px 0px 10px magenta;
+    color: magenta;
+  }
+
+ .jobtitle {
+    font-family: monospace;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 12pt;
+    letter-spacing: .01em;
+    color: rgb(255, 255, 255);
+  }
+
+  .jobtitle2{
+    font-family: monospace;
+    font-size: 18pt;
+    text-align: left;
+    color: magenta;
+  }
+
+  .jobtitle3{
+    font-family: monospace;
+    text-align: left;
+    color: rgb(255, 133, 255);
+  }
+
+ .contact-info {
+    font-family: monospace;
+    letter-spacing: 0.05em;
+    color: rgb(0, 215, 0);
+  }
+
+  .line01 {
+    color: rgb(0, 215, 0);
+    border: 2px dashed rgb(0, 215, 0);
+    border-style: none none dashed;
+    height: 0px;
+    width: 1000px;
+  }
+
+  .break1 {
+    line-height: 225%;
+  }
+
+  .downloadpdf {
+    font-family: monospace;
+    font-size: medium;
+    border-radius: 5px;
+    color: rgb(0, 215, 0);
+    background-color: transparent;
+    border-color: rgb(0, 215, 0);
+    border-width: 1px;
+    border-style: solid;
+    height: 22px;
+    width: 200px;
+    float: right;
+  } 
+
+  .linkedin {
+    font-family: monospace;
+    font-size: medium;
+    border-radius: 5px;
+    color: rgb(0, 215, 0);
+    background-color: transparent;
+    border-color: rgb(0, 215, 0);
+    border-width: 1px;
+    border-style: solid;
+    height: 22px;
+    width: 200px;
+    float: right;
+  } 
+
+  div {
+    border-radius: 0px;
+  }
+
+  #title {
+    margin-left: 0%;
+  }
+  
+  .footercontact {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    position: relative;
+  }
+  
+  .sectionheader {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 12pt;
+    color: magenta;
+  }
+
+  .subtext {
+    font-family: monospace;
+    font-size: 10pt;
+    color: rgb(0, 215, 0);
+    padding-left: 5ch;
+    padding-right: 12ch;
+    text-indent: 0ch;
+  
+  }
+
+  .subtext2 {
+    font-family: monospace;
+    font-size: 10pt;
+    color: rgb(173, 255, 173);
+    padding-left: 5ch;
+    padding-right: 12ch;
+    text-indent: 0ch;
+  
+  }
+
+
+  .companyname {
+    font-family: monospace;
+    font-size: 11pt;
+    color: rgb(173, 255, 173);
+    padding-left: 0ch;
+    padding-right: 12ch;
+    text-indent: 0ch;
+  
+  }
+
+  .jobpos {
+    font-family: monospace;
+    font-size: 11pt;
+    font-weight: bold;
+    color: rgb(173, 255, 173);
+    padding-left: 2ch;
+    padding-right: 12ch;
+    text-indent: 0ch;
+  
+  }
+
+  .jobpos2 {
+    font-family: monospace;
+    font-size: 11pt;
+    font-weight: bold;
+    color: rgb(255, 133, 255);
+    padding-left: 4.5ch;
+    padding-right: 12ch;
+    text-indent: 0ch;
+  
+  }
+
+  .conpos {
+    font-family: monospace;
+    font-size: 11pt;
+    color: rgb(173, 255, 173);
+    padding-left: 4.5ch;
+    padding-right: 12ch;
+    text-indent: 0ch;
+  
+  }
+
+  .jobdes {
+    font-family: monospace;
+    font-size: 10pt;
+    color: rgb(0, 215, 0);
+    padding-left: 5ch;
+    padding-right: 12ch;
+    text-indent: 0ch;
+  
+  }
+  
+  .head {
+    font-size: 20px;
+  }
+  
+  a {
+    color: rgb(0, 248, 33);
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 430px) {
+    .left,
+    .right {
+      display: none;
+    }
+    .stuff {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
